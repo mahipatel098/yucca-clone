@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("https://yucca.co.za/wp-content/uploads/2025/09/yucca-packaging-homepage-intro-plastic-cups-for-iced-chilled-drinks-2-1200x851.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#super{
+    display: flex;
+    gap:150px;
+    padding:10px;
+}
+#header-left>img{
+    height:40px;
+    width:35px;
+}
+#header-left{
+    display: flex;
+    gap:5px;
+    margin-left:100px;
+    height:50px;
+    width:50px;
+    margin-top:10px;
+}
+span{
+    font-size:20px;
+}
+#header-mid{
+    margin-left:10px;
+    margin-top:20px;
+}
+#header-mid>ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+#header-mid>ul>li{
+    font-size:15px;
+}
+#header-mid>ul>li>a{
+    text-decoration:none;
+    color:black;
+}
+hr{
+    opacity: 60%;
+    /* height:1px; */
+    width:100%;
+    color: black;
+}
+#body-betwn{
+    line-height: 80px;
+    margin-top:50px;
+    margin-left:100px;
+    font-size: 80px;
+    font-weight: 5px;
+}
+#boxes{
+    display: flex;
+    gap:2px;
+}
+.box{
+    margin-left:60px;
+    margin-top:20px;
+    border-radius: 10px;
+    width:300px;
+    height:300px;
+    background-color: #e1ddd5;
+    opacity:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+#text{
+    height:150px;
+    width:100%;
+    /* background-color: aqua; */
+    overflow: hidden;
+    text-align: center;
+}
+#text>p,#text1>p,#text2>p{
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0;
+    /* transition: opacity 0.3s ease; */
+
+}
+#text1{
+    height:150px;
+    width:100%;
+    overflow: hidden;
+    text-align: center;
+}
+#text2{
+    height:150px;
+    width:100%;
+    overflow: hidden;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    transition : all 0.1s ease;
+    text-align: center;
+    margin-top:50px;
+}
+.box:hover h1{
+margin-top: -15%;
+}
+.box:hover{
+    background-color: whitesmoke;
+    opacity:90%;
+}
+.box:hover .hover-text{
+    /* visibility: visible; */
+    opacity: 1;
+}
